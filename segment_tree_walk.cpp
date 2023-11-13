@@ -1,3 +1,5 @@
+// Problem: [CSES Hotel Queries] https://cses.fi/problemset/result/7683192/
+
 #include<bits/stdc++.h>
 using namespace std;
 #define SZ 800005
