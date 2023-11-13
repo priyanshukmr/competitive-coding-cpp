@@ -7,9 +7,9 @@
 int shortest[SZ][SZ];
  
 void floyd_warshall() {
-    for(int i = 0; i <= n; i++) 
+	for(int i = 0; i <= n; i++) 
 		for(int j = 0; j <= n; j++) 
-            shortest[i][j] = i==j ? 0 : MAXX;
+			shortest[i][j] = i==j ? 0 : MAXX;
     
 	for(int i = 0; i < m; i++) {
 		cin >> u >> v >> w;
