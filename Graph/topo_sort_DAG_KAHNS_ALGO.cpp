@@ -39,7 +39,7 @@ bool isCyclic() {
 
 /*      KAHN's ALGORITHM toposort using BFS.     */
 // Problem: lexicographically smallest topological sort https://www.spoj.com/problems/TOPOSORT/
-// detects cycle also (no toposort exists)
+// Detects cycle also (no toposort exists) => topo.size() < n 
 
 vector<int> kahns_algo(vector<int> &indegree) {
     vector<int> topo;
